@@ -16,21 +16,13 @@ import me.jjfoley.gfx.TextBox;
  * @author jfoley
  */
 public class Main extends GFX {
-	/**
-	 * Game size (visual). TODO(lab) Try changing this to 600.
-	 */
-	public static int VISUAL_GRID_SIZE = 400;
-	/**
-	 * Game size (logical). TODO(lab) Try changing this to 15 or so.
-	 */
-	public static int LOGICAL_GRID_SIZE = 10;
-	/**
-	 * The words appear in the top part of the screen.
-	 */
+
+	public static int VISUAL_GRID_SIZE = 600;
+	
+	public static int LOGICAL_GRID_SIZE = 15;
+	
 	public static int TOP_PART = 50;
-	/**
-	 * There's a border to make it look pretty (the board is inset by this much).
-	 */
+	
 	public static int BORDER = 5;
 	/**
 	 * This is where the game logic lives.

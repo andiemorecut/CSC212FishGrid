@@ -18,8 +18,13 @@ public class Fish extends WorldObject {
 	static Color[] COLORS = {
 			Color.red,
 			Color.green,
-			Color.yellow
-			// TODO: (lab) Add more colors.
+			Color.yellow,
+			Color.black,
+			Color.white,
+			Color.gray,
+			Color.orange,
+			Color.magenta,
+			Color.cyan
 			// TODO: (FishGrid) Maybe make a special fish that is more points?
 	};
 	/**
@@ -37,7 +42,14 @@ public class Fish extends WorldObject {
 	public void markAsPlayer() {
 		this.player = true;
 	}
-
+	
+	// *attempting* to solve the fishies and fastScared first challenge issue
+	
+//	boolean fastScared;
+//	
+//	public void isFishScared() {
+//		this.flipped = true;
+//	}
 
 	/**
 	 * A Fish knows what World it belongs to, because all WorldObjects do.
